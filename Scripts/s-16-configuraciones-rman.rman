@@ -1,0 +1,14 @@
+connect target "sys@LOPROYMA_DEDICATED as sysdba"
+
+run {
+    backup incremental to compressed backupset;
+    # Activar optimizacion de backups 
+    configure backup optimization on;
+    # Configurar politica de retencion 
+    configure retention policy to redundancy 2;
+    # Configurar respaldo automatico de control file 
+    configure controlfile autobackup format for device type disk clear;
+    # Configuracion del formato
+    configure channel device type disk format 'ora_df%t_s%s_s%p';
+}
+

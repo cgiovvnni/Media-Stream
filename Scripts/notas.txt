@@ -1,0 +1,34 @@
+Suponemos que tenemos :
+# canciones 
+30,000 (3 a 5 minutos = 1 seccion de 5 minutos)
++
+#peliculas 
+30,000
+2 horas (24 secciones de 5 minutos aproximadamente)
+=
+# registros BLOB
+
+Calcular el tamaño de un registro 
+
+triple del tamaño de la FRA
+
+Backup 
+incremental 
+ventanas 
+
+Backup (2 niveles 0) = 5.97 GB x 2 = 12 GB 
+
+Nivel 0 - dia particular 
+Nivel 1 - dias de la semana (mitad de la base aprox)
+
+-- Consultamos el estado del WALLET
+SELECT * FROM V$ENCRYPTION_WALLET;
+
+-- Comprobar si un TABLESPACE está encriptado o no
+SELECT TABLESPACE_NAME, ENCRYPTED FROM DBA_TABLESPACES;
+
+-- Consultamos la configuración de los tablespaces encriptados
+SELECT * FROM V$ENCRYPTED_TABLESPACES;
+
+-- Cerramos el WALLET
+ALTER SYSTEM SET ENCRYPTION WALLET CLOSE IDENTIFIED BY "oracle_4U";
