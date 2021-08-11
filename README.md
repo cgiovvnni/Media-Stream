@@ -1,5 +1,5 @@
 # Media-Stream
-Proyecto final para la materia de Base de Datos distribuidas
+Proyecto final para la materia de Base de Datos Avanzadas
 
 ## Caso de Estudio 
 En esta primera parte del proyecto se realizará el diseño de la base de dato que se desea construir, administrar y optimizar.Empleando Notación crow’s foot  generar un modelo relacional.  Indicar el en diagrama cardinalidades, tipos de datos y constraints NULL/NOT NULL.    El modelo deberá ser realizado con ER-Studio.  Antes de emplear la herramienta deberá ser configurada con base al documento previo-practica04-previo.pdfque  se  encuentra  en  la  carpeta  compartida BD/practicas/practica04.      Se  recomiendahacer  revisión  de  modelo  con  el  profesor  antes  de continuar con la siguiente parte. A continuación se describen las reglas de negocio.  Otros lineamientos son: Homologar a medida de lo posible el uso de llaves primarias artificiales con la notación <nombre_tabla_id>.  
