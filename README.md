@@ -16,4 +16,5 @@ Cada contenidopuede tener asociado una lista de comentarios, cada comentario lo 
 El usuario puede generar todos los Playlist que desee. Cada playlist esta formado por un nombre, y una lista de contenidos. La lista puede ser compartida con otros usuarios, por lo que se requiere almacenar a los usuarios autorizados por el propio usuario para poder hacer uso de dicho playlist. Finalmente, conbase al tipo de subscripciónque el usuario haya contratado, su cuenta puede ser compartida hasta con 5 usuarios. Bajo esta condición, se deberá almacenar la lista de usuarios asociados.
 
 ## Diseño Entidad Relación 
-![](Modelo/Disenio-Logico.jpg)
+![](Modelos/Disenio-Logico.jpg)
+
